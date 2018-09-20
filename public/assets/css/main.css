@@ -9,6 +9,10 @@ body {
     padding: 10px 30px;
 }
 
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
 p {
     font-size: 14px;
 }
