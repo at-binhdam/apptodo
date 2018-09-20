@@ -13,7 +13,7 @@ This is a web system to manage your work and show on the calendar.
 - Get source `git clone https://github.com/at-binhdam/apptodo`
 - Run command `composer install`
 
-### Run via PHP Development Server
+### Run app via PHP Development Server
 - Go to folder public `cd public`
 - Run command `php -S 0.0.0.0:8080`
 - Access the URL `http://0.0.0.0:8080`
