@@ -33,15 +33,6 @@ class HomeController
      */
     public function index()
     {
-        $taskInfo = [
-            'name' => 'Gym 5',
-            'start_date' => '2018-09-15',
-            'end_date' => '2018-09-16',
-            'status' => 2,
-        ];
-        
-        $task = $this->taskModel->findAllTask();
-
-        return view('home', ['task' => $task]);
+        return view('home');
     }
 }
