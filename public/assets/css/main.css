@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #242b48;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+p {
+    font-size: 14px;
+}
+
+.title-app {
+    padding: 0px 10px;
+}
+
+.title-app h1 {
+    font-weight: bold;
+}
+
+.title-app span {
+    color: #a7a6ab;
+    font-size: 13px;
+    display: inherit;
+    margin-bottom: 5px;
+}
+
+.form-container .form-group {
+    position: relative;
+}
+
+#calendar {
+    height: 200px !important;
+    margin-top: 20px;
+}

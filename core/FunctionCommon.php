@@ -84,3 +84,22 @@ if (!function_exists('registerObject')) {
         return new $pathClass(...$objsConstructor);
     }
 }
+
+if (!function_exists('returnResponseJson')) {
+
+    /**
+     * Return response with type json
+     *
+     * @param string $status  success|error
+     * @param string $message Message
+     * @param array  $data    List data
+     *
+     * @return void
+     */
+    function returnResponseJson(string $status, string $message, array $data = [])
+    {
+        header('Content-Type: application/json');
+
+        echo json_encode(["status" => $status, "message" => $message, "data" => $data]);
+    }
+}
