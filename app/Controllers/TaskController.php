@@ -53,7 +53,7 @@ class TaskController
             $status = "error";
         }
 
-        return returnResponseJson($status, "", ['id' => $status]);
+        return returnResponseJson($status, "", ['id' => $taskId]);
     }
 
     /**

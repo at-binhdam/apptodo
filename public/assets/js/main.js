@@ -185,11 +185,11 @@ function handleDragTaskOnCalendar(event)
 }
 
 /** Event: Click button create new task */
-function callbackCreateTaskSuccess(idNewTask, infoTask)
+function callbackCreateTaskSuccess(dataResponse, infoTask)
 {
     clearFormData();
     var taskOnCalendar = {
-        id: idNewTask,
+        id: dataResponse['id'],
         title: infoTask['name'],
         start: infoTask['start_date'],
         end: infoTask['end_date'],
