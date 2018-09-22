@@ -14,7 +14,7 @@ This is a web system to manage your work and show on the calendar.
 - Run command `composer install`
 
 ### Directory Permissions
-After installing app, you may need to configure some permissions. Directories within the `databases` directory should be writable by your web server or app will not run.
+After installing app, you may need to configure some permissions. The `databases` directory should be writable by your web server or app will not run.
 
 ### Run app via PHP Development Server
 - Go to folder public `cd public`
